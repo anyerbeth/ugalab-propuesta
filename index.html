@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Propuesta web · UGALAB</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Unión de Ganaderos de El Laberinto (UGALAB), estado Zulia. Feria Ganadera de El Laberinto, sanidad animal, vacunación contra la fiebre aftosa, asistencia técnica y representación gremial.">
+
+  <!-- Vista previa al compartir el enlace (WhatsApp, Facebook) -->
+  <meta property="og:title" content="Propuesta de página web para UGALAB">
+  <meta property="og:description" content="Propuesta de diseño web para la Unión de Ganaderos de El Laberinto. Versión de demostración.">
+  <meta property="og:image" content="img/logo-ugalab.jpeg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1F3B2D">
+  <link rel="icon" href="img/logo-ugalab.jpeg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,500;0,700;1,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Aviso de propuesta -->
+  <div class="demo-bar" role="note">
+    <strong>Propuesta de diseño</strong> · Versión de demostración, no es el sitio oficial de UGALAB
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#inicio" class="nav__logo" aria-label="UGALAB, inicio">
+      <img class="nav__logo-mark" src="img/logo-ugalab.jpeg" alt="">
+      <span>UGALAB<em>Unión de Ganaderos de El Laberinto</em></span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-controls="navLinks" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#noticias">Noticias</a>
+      <a href="#aliados">Aliados</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#afiliacion" class="btn btn--small">Afíliate</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <p class="kicker kicker--light">Unión de Ganaderos de El Laberinto · Zulia</p>
+          <h1 class="hero__title">
+            Unidos por el campo,<br><span>crecemos juntos.</span>
+          </h1>
+          <p class="hero__lead">
+            Somos productores ganaderos de El Laberinto, trabajando en comunidad por
+            la sanidad del rebaño, la producción local y el desarrollo de nuestra región.
+          </p>
+          <div class="hero__cta">
+            <a href="#afiliacion" class="btn">Súmate a UGALAB</a>
+            <a href="#noticias" class="btn btn--ghost">Ver noticias</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__medal">
+            <img src="img/logo-ugalab.jpeg" alt="Logo de la Unión de Ganaderos de El Laberinto (UGALAB)">
+          </div>
+          <a href="#noticias" class="hero__badge">
+            <strong>XXV</strong>
+            <span>Feria Ganadera<br>de El Laberinto 2026</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CIFRAS ============ -->
+    <section class="stats" aria-label="UGALAB en cifras">
+      <div class="stat reveal"><strong>XXV</strong><span>ediciones de la Feria Ganadera de El Laberinto</span></div>
+      <div class="stat reveal"><strong>4</strong><span>días de feria en octubre de 2026</span></div>
+      <div class="stat reveal"><strong>39,45 kg</strong><span>de leche: Gran Campeona del Torneo Lechero 2026</span></div>
+    </section>
+
+    <!-- ============ NOSOTROS ============ -->
+    <section class="section about" id="nosotros">
+      <div class="about__text reveal">
+        <p class="kicker">Quiénes somos</p>
+        <h2>Nacimos del trabajo diario en el campo</h2>
+        <p>
+          La Unión de Ganaderos de El Laberinto (UGALAB) reúne a productores de la zona con
+          el propósito de fortalecer el trabajo del campo y promover una ganadería más
+          organizada, sana y sostenible.
+        </p>
+        <p>
+          Organizamos la Feria Ganadera de El Laberinto, acompañamos las campañas de sanidad
+          animal y trabajamos de la mano con las federaciones ganaderas regionales y nacionales.
+        </p>
+      </div>
+      <div class="about__values">
+        <article class="value reveal">
+          <h3>Misión</h3>
+          <p>Impulsar el trabajo de los productores a través de la unión y la cooperación.</p>
+        </article>
+        <article class="value reveal">
+          <h3>Visión</h3>
+          <p>Contribuir a una ganadería local fuerte, productiva y comprometida con su comunidad.</p>
+        </article>
+        <article class="value reveal">
+          <h3>Valores</h3>
+          <p>Unidad, compromiso, respeto por la tierra y bienestar animal.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ ACTIVIDADES ============ -->
+    <section class="section services" id="actividades">
+      <div class="section__head reveal">
+        <p class="kicker kicker--light">Nuestro trabajo</p>
+        <h2>Actividades principales</h2>
+      </div>
+      <div class="services__grid">
+        <article class="service reveal">
+          <span class="service__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg>
+          </span>
+          <h3>Feria Ganadera</h3>
+          <p>Organizamos la Feria Ganadera de El Laberinto, con exposiciones, juzgamientos y el Torneo Lechero.</p>
+        </article>
+        <article class="service reveal">
+          <span class="service__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M19 3 21 5M17 5l2 2M15 7l2 2-9 9H6v-2l9-9zM4 20l2-2"/></svg>
+          </span>
+          <h3>Sanidad animal</h3>
+          <p>Convocamos los ciclos de vacunación contra la fiebre aftosa junto a los organismos competentes.</p>
+        </article>
+        <article class="service reveal">
+          <span class="service__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3v18M5 8c0-3 3-5 7-5s7 2 7 5M5 16c0 3 3 5 7 5s7-2 7-5M3 12h18"/></svg>
+          </span>
+          <h3>Asistencia técnica</h3>
+          <p>Compartimos conocimientos prácticos sobre alimentación, reproducción y manejo del ganado.</p>
+        </article>
+        <article class="service reveal">
+          <span class="service__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 17l5-5 4 4 7-7M14 9h6v6"/></svg>
+          </span>
+          <h3>Comercialización</h3>
+          <p>Impulsamos espacios de encuentro y promoción para los productores y sus productos.</p>
+        </article>
+        <article class="service reveal">
+          <span class="service__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 9l9-5 9 5-9 5-9-5zM7 11v5c0 1.5 2.5 3 5 3s5-1.5 5-3v-5"/></svg>
+          </span>
+          <h3>Capacitación</h3>
+          <p>Apoyamos el intercambio de experiencias y la formación de quienes trabajan en el campo.</p>
+        </article>
+        <article class="service reveal">
+          <span class="service__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/></svg>
+          </span>
+          <h3>Representación gremial</h3>
+          <p>Llevamos la voz de los ganaderos de El Laberinto ante FEGALAGO, FEDENAGA y otras instituciones.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CAMPAÑA SANITARIA ============ -->
+    <section class="campaign" aria-labelledby="campaignTitle">
+      <img class="campaign__bg" src="img/vacuna-tu-ganado.jpeg" alt="">
+      <div class="campaign__inner reveal">
+        <p class="kicker kicker--light">Campaña sanitaria 2026</p>
+        <h2 id="campaignTitle">¡Vacuna a tu ganado!</h2>
+        <p>Primer ciclo de vacunación obligatoria y preventiva contra la <strong>fiebre aftosa</strong>.</p>
+        <p class="campaign__dates">1 de mayo – 30 de junio de 2026</p>
+        <p class="campaign__motto">¡Cumple con tu deber y cuida tu rebaño!</p>
+      </div>
+    </section>
+
+    <!-- ============ NOTICIAS ============ -->
+    <section class="section news" id="noticias">
+      <div class="section__head reveal">
+        <p class="kicker">Lo más reciente</p>
+        <h2>Noticias y encuentros</h2>
+        <p class="section__sub">Toca una imagen para verla completa.</p>
+      </div>
+      <div class="news__grid">
+        <article class="news__card news__card--feature reveal">
+          <button class="news__img" type="button" data-full="img/feria-xxv-fegalago.jpeg">
+            <img src="img/feria-xxv-fegalago.jpeg" alt="Representantes de FEGALAGO presentes en la XXV Feria Ganadera de El Laberinto 2026">
+          </button>
+          <div class="news__body">
+            <span class="news__tag">22 – 25 de octubre de 2026</span>
+            <h3>XXV Feria Ganadera de El Laberinto</h3>
+            <p>Cuatro días de exposición en el Parque Ferial Ing. Mario Urdaneta Inciarte, con la visita de FEGALAGO y productores de toda la región.</p>
+          </div>
+        </article>
+        <article class="news__card reveal">
+          <button class="news__img" type="button" data-full="img/torneo-lechero-2026.jpeg">
+            <img src="img/torneo-lechero-2026.jpeg" alt="Miss Mecoque Laberinta, Gran Campeona Productora de Leche del Torneo Lechero 2026">
+          </button>
+          <div class="news__body">
+            <span class="news__tag">Torneo Lechero</span>
+            <h3>Gran Campeona Productora de Leche</h3>
+            <p><strong>Miss Mecoque Laberinta</strong>, de Agropecuaria Mecoque Mocho: 39,450 kg en 3 ordeños.</p>
+          </div>
+        </article>
+        <article class="news__card reveal">
+          <button class="news__img" type="button" data-full="img/vacunacion-aftosa-2026.jpeg">
+            <img src="img/vacunacion-aftosa-2026.jpeg" alt="Afiche de UGALAB llamando al primer ciclo de vacunación contra la fiebre aftosa 2026">
+          </button>
+          <div class="news__body">
+            <span class="news__tag">Sanidad animal</span>
+            <h3>Llamado a vacunar contra la aftosa</h3>
+            <p>Junto a FUNVESSA, FEGALAGO, FEDENAGA e INSAI convocamos el primer ciclo de vacunación del año.</p>
+          </div>
+        </article>
+        <article class="news__card reveal">
+          <button class="news__img" type="button" data-full="img/felicitacion-fedenaga.jpeg">
+            <img src="img/felicitacion-fedenaga.jpeg" alt="UGALAB felicita a la nueva junta directiva de FEDENAGA">
+          </button>
+          <div class="news__body">
+            <span class="news__tag">Gremio</span>
+            <h3>Felicitaciones a la nueva directiva de FEDENAGA</h3>
+            <p>José Labrador, presidente, y M.V. Onésimo Prado, vicepresidente. ¡Mucho éxito en su gestión!</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ ALIADOS ============ -->
+    <section class="section allies" id="aliados">
+      <div class="section__head reveal">
+        <p class="kicker">Trabajamos en red</p>
+        <h2>Instituciones aliadas</h2>
+      </div>
+      <ul class="allies__grid">
+        <li class="ally reveal"><strong>FEDENAGA</strong><span>Federación Nacional de Ganaderos de Venezuela</span></li>
+        <li class="ally reveal"><strong>FEGALAGO</strong><span>Federación de ganaderos de la región, presente en nuestras ferias</span></li>
+        <li class="ally reveal"><strong>FUNVESSA</strong><span>Fundación Venezolana de Servicios de Salud Animal</span></li>
+        <li class="ally reveal"><strong>INSAI</strong><span>Instituto Nacional de Salud Agrícola Integral</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ AFILIACIÓN ============ -->
+    <section class="section join" id="afiliacion">
+      <div class="join__text reveal">
+        <p class="kicker kicker--light">Crezcamos juntos</p>
+        <h2>¿Quieres formar parte de UGALAB?</h2>
+        <p>Acércate a la Unión y conoce cómo participar en las iniciativas de los ganaderos de El Laberinto.</p>
+        <ul class="join__list">
+          <li>Conecta con otros productores de la zona</li>
+          <li>Participa en la Feria Ganadera y los encuentros del sector</li>
+          <li>Entérate a tiempo de las campañas de vacunación</li>
+        </ul>
+        <a class="btn btn--gold join__cta" href="https://www.instagram.com/ugalab/" target="_blank" rel="noopener noreferrer">Escríbenos por Instagram</a>
+      </div>
+      <div class="join__note reveal">
+        <img src="img/logo-ugalab.jpeg" alt="" class="join__logo">
+        <p>Una organización de productores, construida con trabajo, identidad y compromiso con El Laberinto.</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section contact" id="contacto">
+      <div class="section__head reveal">
+        <p class="kicker">Dónde encontrarnos</p>
+        <h2>Contacto</h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__card reveal">
+          <h3>Estamos en</h3>
+          <p>El Laberinto, estado Zulia<br>Venezuela</p>
+        </div>
+        <div class="contact__card reveal">
+          <h3>Feria Ganadera</h3>
+          <p>Parque Ferial Ing. Mario Urdaneta Inciarte</p>
+        </div>
+        <div class="contact__card reveal">
+          <h3>Directiva y novedades</h3>
+          <p>Consulta la información más reciente en nuestro Instagram oficial: <a href="https://www.instagram.com/ugalab/" target="_blank" rel="noopener noreferrer">@ugalab</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <img src="img/logo-ugalab.jpeg" alt="" class="footer__logo">
+    <p><strong>UGALAB</strong> · Unión de Ganaderos de El Laberinto</p>
+    <p class="footer__small">RIF J-07007434-5 · © <span id="year"></span> Todos los derechos reservados.</p>
+    <p class="footer__demo">Propuesta de página web elaborada para UGALAB. Contenido tomado de sus publicaciones en Instagram.</p>
+  </footer>
+
+  <!-- Visor de imágenes -->
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada">
+    <button class="lightbox__close" type="button" aria-label="Cerrar">×</button>
+    <img src="" alt="">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
